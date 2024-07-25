@@ -1,7 +1,7 @@
 name: rg-eshoponweb-ASIF
 
-#Triggers (uncomment line below to use it)
-on: [push, workflow_dispatch]
+Triggers (uncomment line below to use it)
+#on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
@@ -9,7 +9,7 @@ env:
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 50f429b1-5568-4940-90ec-bf87b666b426
-  WEBAPP-NAME: eshoponweb-webapp-ASIF
+  WEBAPP-NAME: rg-eshoponweb-ASIF
 
 
 jobs:
